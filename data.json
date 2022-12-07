@@ -1,0 +1,53 @@
+{
+    "topics": {
+        "mongo": {
+            "tuto": [
+                "https://pymongo.readthedocs.io/en/stable/tutorial.html",
+                "https://openclassrooms.com/fr/courses/4462426-maitrisez-les-bases-de-donnees-nosql/4474601-decouvrez-le-fonctionnement-de-mongodb"
+            ],
+            "forum": [
+                "https://openclassrooms.com/forum/sujet/pymongo-comment-utiliser-elemmatch-de-mongodb#message-94112976",
+                "https://stackoverflow.com/questions/13312358/mongo-couldnt-connect-to-server-127-0-0-127017"
+            ]
+        },
+        "flask": {
+            "definition": [
+                "https://fr.wikipedia.org/wiki/Flask_(framework)"
+            ],
+            "astuce": [
+                "https://flask-restful.readthedocs.io/en/latest/quickstart.html"
+            ],
+            "exemple": [
+                "https://11i008:5000"
+            ],
+            "tuto": [
+                "http://sdz.tdct.org/sdz/creez-vos-applications-web-avec-flask.html"
+            ]
+        },
+        "multithreading": {
+            "exemples": [
+                "https://devstory.net/10269/java-multithreading"
+            ],
+            "piege": [
+                "https://docs.microsoft.com/fr-fr/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism"
+            ],
+            "FAQ": [
+                "https://help.ableton.com/hc/fr-fr/articles/209067649-FAQ-Gestion-des-processeurs-multic%C5%93urs"
+            ],
+            "definition": [
+                "https://fr.gadget-info.com/difference-between-multiprocessing"
+            ]
+        },
+        "POO": {
+            "tuto": [
+                "https://munier.perso.univ-pau.fr/temp/I5/tuto-poo.pdf"
+            ],
+            "exemple": [
+                "https://www.data-transitionnumerique.com/apprendre-programmation-objet/"
+            ],
+            "video": [
+                "https://www.youtube.com/watch?v=bgmMg2ZdpVU"
+            ]
+        }
+    }
+}

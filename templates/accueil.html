@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+  <html>   
+    <head>        
+      <meta charset="utf-8" />        
+      <meta name="viewport" content="width=device-width" />         
+      <title>Guide d'utilisation</title>  
+  </head>  
+  <body>        
+    <header><B>Guide d'utilisation</B></header>
+    <main>Mode d'emploi</main>
+</body>
+</html> -->
+
+<!DOCTYPE html">
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bienvenue</title>
+  </head>
+  
+  <body>
+  <div id="conteneur">    
+    <h1 id="header"><a title="Pythonpédia"><span><center>Pythonpedia</center></span></a></h1>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="./ws/topics">Topics</a></li>
+        <li><a href="./ws/annuaire">Annuaire</a></li>
+        {%for i in range(0, len)%}
+        <li><a href="./ws/topic/{{keys[i]}}">{{keys[i]}}</a></li>
+
+        {%endfor%}
+      </ul>
+    </nav>
+    
+    <div id="contenu">
+      <h2><center>Description</center></h2>
+      <p>Encyclopédie partielle retournant les topics, les attributs et URL des topics et l'annuaire.</p>
+    </div>
+    
+  </div>
+  </body>
+</html>
